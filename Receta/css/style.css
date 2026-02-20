@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+@font-face{
+    font-family: "Titulos";
+    src: url("fonts/young-serif/YoungSerif-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-color: #f3e5d8;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    font-family: "Texto";
+}
+
+.container{
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+}
+.huevito{
+    width: 100%;
+    border-radius: 8px;
+
+}
+.tittle{
+    font-size: 3em;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+   font-family: "Titulos";
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+.preparation{
+    background-color: #fff7fc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 30px;
+}
+.subtitle{
+    font-family: "Titulos";
+    font-size: 24px;
+    color: #854632;
+    letter-spacing: 1px;
+
+}
+.preparation .subtitle{
+    color: #82415c;
+    font-family: "Texto";
+    font-size: 20px;
+    margin-bottom: 10px;  
+}
+.list{
+    margin-left: 20px;
+    color: #302d2c;
+}
+.list > li{
+    line-height: 2;
+}
+.preparation .list
+    li::marker { color: #82415c;
+    }
+    p{
+        color: #302d2c;
+    }
+    @font-face{
+        font-family: "Texto";
+        src: url("fonts/outfit/static/Outfit-Regular.ttf");
+        font-weight: normal;
+        font-style: normal;
+    }
+    .Ingredientes, .Instructions, .Nutrition{
+margin-top: 30px;
+}
+.list-2{
+margin-left: 20px;
+}
+.list-2 > li{
+    padding-left: 10px;
+    line-height: 2;
+
+}
+.list-2 > li ::marker {
+    color: #854632;
+}
+hr{
+margin-top: 30px;
+}
+
+.table-information {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;   
+}
+.table-tittle {
+    color: #854632;
+    padding: 8px;
+
+}
+.border-line {
+    border-bottom: #302d2c;
+    border-width: 2px;
+    border-style: solid;
+}
+.border-line > td{
+    padding: 8px;
+}
+.values-color {
+    color: #854632;
+    font-weight: bolder;
+    
+}
