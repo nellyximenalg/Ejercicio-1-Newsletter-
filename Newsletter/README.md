@@ -19,7 +19,7 @@ Este proyecto es una página web hecha con HTML y CSS que permite a los usuarios
 ---
 
 ## 🔗 Enlace al proyecto
-Repositorio en GitHub: [Pega aquí tu enlace]  
+Repositorio en GitHub: [https://github.com/nellyximenalg/Ejercicio-1-Newsletter-/tree/master/Newsletter]  
 Deploy: [Pega aquí el deploy de GitHub Pages]
 ---
 
